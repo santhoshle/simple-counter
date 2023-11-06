@@ -1,0 +1,52 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+  
+.number {
+    font-size: 50px;
+}
+  
+.row {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+  }
+
+  .item {
+    min-width: 80px;
+    margin: 5px;
+  }
+
+  .group {
+    display: inline-flex;
+  }
+
+  button {
+    background-color: green;
+    font-size: 40px;
+    border-radius: 5px;
+    border: 0px solid;
+    cursor: pointer;
+  }
+
+  input, span {
+    font-size: 40px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  label {
+    font-size: 20px;
+    text-align: center;
+    word-wrap: normal;
+    width: 80px;
+  }
+
+  #increment {
+    margin-left: 15px;;
+  }
